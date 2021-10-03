@@ -156,7 +156,7 @@
         "properties": {
             "model_name": {
                 "description": "The name of the model used for this score.",
-                "type": "string"
+                "type": ["null", "string"]
             },
             "model_version": {
                 "description": "The version of the model used for this score.",
