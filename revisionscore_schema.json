@@ -1,8 +1,8 @@
 {
   "name": "MyClass",
-  "type": "record",
+  "type": "object",
   "namespace": "com.acme.avro",
-  "fields": [
+  "properties": [
     {
       "name": "$schema",
       "type": "string"
@@ -11,8 +11,8 @@
       "name": "meta",
       "type": {
         "name": "meta",
-        "type": "record",
-        "fields": [
+        "type": "object",
+        "properties": [
           {
             "name": "stream",
             "type": "string"
@@ -77,8 +77,8 @@
       "name": "performer",
       "type": {
         "name": "performer",
-        "type": "record",
-        "fields": [
+        "type": "object",
+        "properties": [
           {
             "name": "user_text",
             "type": "string"
@@ -127,14 +127,14 @@
       "name": "scores",
       "type": {
         "name": "scores",
-        "type": "record",
-        "fields": [
+        "type": "object",
+        "properties": [
           {
             "name": "damaging",
             "type": {
               "name": "damaging",
-              "type": "record",
-              "fields": [
+              "type": "object",
+              "properties": [
                 {
                   "name": "model_name",
                   "type": "string"
@@ -154,8 +154,8 @@
                   "name": "probability",
                   "type": {
                     "name": "probability",
-                    "type": "record",
-                    "fields": [
+                    "type": "object",
+                    "properties": [
                       {
                         "name": "false",
                         "type": "float"
@@ -174,8 +174,8 @@
             "name": "goodfaith",
             "type": {
               "name": "goodfaith",
-              "type": "record",
-              "fields": [
+              "type": "object",
+              "properties": [
                 {
                   "name": "model_name",
                   "type": "string"
@@ -195,8 +195,8 @@
                   "name": "probability",
                   "type": {
                     "name": "probability",
-                    "type": "record",
-                    "fields": [
+                    "type": "object",
+                    "properties": [
                       {
                         "name": "false",
                         "type": "float"
