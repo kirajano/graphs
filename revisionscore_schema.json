@@ -13,7 +13,8 @@
     "page_namespace",
     "page_title",
     "rev_id",
-    "rev_timestamp"
+    "rev_timestamp",
+    "scores"
   ],
   "properties": {
     "$schema": {
