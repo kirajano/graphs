@@ -3,7 +3,7 @@
   "description": "Represents a MW Revision Score event (from ORES).",
   "$id": "/mediawiki/revision/score/2.0.0",
   "$schema": "https://json-schema.org/draft-07/schema#",
-  "additionalProperties": true,
+  "additionalProperties": false,
   "type": "object",
   "required": [
     "$schema",
